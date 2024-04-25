@@ -46,10 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clases\herramientas_esenciales\operaciones_arreglos.cs" />
-    <Compile Include="clases\herramientas_esenciales\operaciones_textos.cs" />
-    <Compile Include="clases\herramientas_esenciales\Tex_base.cs" />
-    <Compile Include="clases\herramientas_esenciales\var_fun_GG.cs" />
+    <Compile Include="clases\herramientas\operaciones_arreglos.cs" />
+    <Compile Include="clases\herramientas\operaciones_textos.cs" />
+    <Compile Include="clases\herramientas\Tex_base.cs" />
+    <Compile Include="clases\herramientas\var_fun_GG.cs" />
+    <Compile Include="clases\iniciar_archivos.cs" />
     <Compile Include="clases\modelos\modelo_productos.cs" />
     <Compile Include="clases\negocio.cs" />
     <Compile Include="clases\procesos\procesos_productos.cs" />

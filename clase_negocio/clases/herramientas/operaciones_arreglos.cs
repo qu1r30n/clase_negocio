@@ -764,10 +764,38 @@ namespace clase_negocio.clases.herramientas
                     }
 
                 }
+                if (texto_enviar_arreglo_objeto is bool)
+                {
+                    texto_enviar_arreglo_string = new string[] { texto_enviar_arreglo_objeto + "" };
+                }
                 if (texto_enviar_arreglo_objeto is string[])
                 {
                     texto_enviar_arreglo_string = (string[])texto_enviar_arreglo_objeto;
                 }
+
+                if (texto_enviar_arreglo_objeto is double[]|| texto_enviar_arreglo_objeto is int[])
+                {
+
+                    double[] temp = (double[])texto_enviar_arreglo_objeto;
+                    string[] temp2= new string[temp.Length];
+                    for (int i = 0; i < temp.Length; i++)
+                    {
+                        temp2[i]= temp[i].ToString();
+                    }
+                    texto_enviar_arreglo_string = temp2;
+                }
+                if (texto_enviar_arreglo_objeto is bool[])
+                {
+                    bool[] temp = (bool[])texto_enviar_arreglo_objeto;
+                    string[] temp2 = new string[temp.Length];
+                    for (int i = 0; i < temp.Length; i++)
+                    {
+                        temp2[i] = temp[i].ToString();
+                    }
+                    texto_enviar_arreglo_string = temp2;
+                }
+
+
             }
 
             return texto_enviar_arreglo_string;

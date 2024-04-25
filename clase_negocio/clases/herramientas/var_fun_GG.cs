@@ -16,6 +16,7 @@ namespace clase_negocio.clases.herramientas
 
         static public string[] GG_caracter_separacion_funciones_espesificas = { "~", "§", "¶" };
 
+        static public string[] GG_caracter_para_confirmacion_o_error = { "╣" };
         //funciones---------------------------------------------------------------------------------------------------------
 
         public string[] GG_funcion_caracter_separacion(object caracter_separacion_objeto = null)
@@ -149,5 +150,76 @@ namespace clase_negocio.clases.herramientas
             }
             return null;
         }
+
+
+        public object GG_retorno_de_datos(object variable_a_la_que_devolvera, string respuesta_devolver_texto = null, string respuesta_devolver_verdadero_1_falso_0 = null, string respuesta_devolver_numer = null, string[] respuesta_devolver_arreglo_texto = null, string[] respuesta_devolver_arreglo_verdadero_1_falso_0 = null, string[] respuesta_devolver_arreglo_numer = null)
+        {
+            if (variable_a_la_que_devolvera is string)
+            {
+                if (respuesta_devolver_arreglo_texto!=null)
+                {
+                    return respuesta_devolver_texto;
+                }
+            }
+            else if (variable_a_la_que_devolvera is bool)
+            {
+                
+                if (respuesta_devolver_verdadero_1_falso_0 != null)
+                {
+                    bool valor_retornar = false;
+                    if (respuesta_devolver_verdadero_1_falso_0=="1")
+                    {
+                        valor_retornar = true;
+                    }
+                    return valor_retornar;
+                }
+            }
+            else if (variable_a_la_que_devolvera is double || variable_a_la_que_devolvera is int)
+            {
+                if (respuesta_devolver_numer != null)
+                {
+                    return Convert.ToDouble(respuesta_devolver_numer);
+                }
+            }
+            else if (variable_a_la_que_devolvera is string[])
+            {
+                if (respuesta_devolver_arreglo_texto != null)
+                {
+                    return respuesta_devolver_arreglo_texto;
+                }
+            }
+            else if (variable_a_la_que_devolvera is bool[])
+            {
+                if (respuesta_devolver_arreglo_verdadero_1_falso_0 != null)
+                {
+                    bool[] temp = new bool[respuesta_devolver_arreglo_verdadero_1_falso_0.Length];
+                    for (int i = 0; i < respuesta_devolver_arreglo_verdadero_1_falso_0.Length; i++)
+                    {
+                        temp[i] = false;
+                        if (respuesta_devolver_arreglo_verdadero_1_falso_0[i]=="1")
+                        {
+                            temp[i] = true;
+                        }
+                        
+                    }
+                    return temp;
+                }
+            }
+            else if (variable_a_la_que_devolvera is double[] || variable_a_la_que_devolvera is int[])
+            {
+                if (respuesta_devolver_arreglo_numer != null)
+                {
+                    double[] temp = new double[respuesta_devolver_arreglo_numer.Length];
+                    for (int i = 0; i < respuesta_devolver_arreglo_numer.Length; i++)
+                    {
+                        temp[i] = Convert.ToDouble(respuesta_devolver_arreglo_numer[i]);
+                    }
+                }
+            }
+
+            return null;
+
+        }
+
     }
 }

@@ -1,0 +1,9 @@
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\bin\Debug\clase_negocio.exe.config
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\bin\Debug\clase_negocio.exe
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\bin\Debug\clase_negocio.pdb
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.csproj.AssemblyReference.cache
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.Properties.Resources.resources
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.csproj.GenerateResource.cache
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.csproj.CoreCompileInputs.cache
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.exe
+C:\Users\pc1\Documents\GitHub\clase_negocio\clase_negocio\obj\Debug\clase_negocio.pdb

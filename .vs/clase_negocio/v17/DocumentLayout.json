@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\iniciar_archivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\iniciar_archivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\procesos\\procesos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\modelos\\modelo_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\modelos\\modelo_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\var_fun_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\herramientas_esenciales\\var_fun_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\modelos\\modelo_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\modelos\\modelo_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\procesos\\procesos_productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\tex_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\tex_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\herramientas_esenciales\\tex_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|c:\\users\\pc1\\documents\\github\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\var_fun_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3121DB0C-1756-4E03-B723-735A1653EA64}|clase_negocio\\clase_negocio.csproj|solutionrelative:clase_negocio\\clases\\herramientas_esenciales\\var_fun_gg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,30 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "procesos_productos.cs",
-              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs",
-              "RelativeDocumentMoniker": "clase_negocio\\clases\\procesos\\procesos_productos.cs",
-              "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs",
-              "RelativeToolTip": "clase_negocio\\clases\\procesos\\procesos_productos.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "DocumentIndex": 0,
+              "Title": "iniciar_archivos.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\iniciar_archivos.cs",
+              "RelativeDocumentMoniker": "clase_negocio\\clases\\iniciar_archivos.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\iniciar_archivos.cs",
+              "RelativeToolTip": "clase_negocio\\clases\\iniciar_archivos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:40:59.639Z",
+              "WhenOpened": "2024-04-25T13:03:33.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "modelo_productos.cs",
               "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\modelos\\modelo_productos.cs",
               "RelativeDocumentMoniker": "clase_negocio\\clases\\modelos\\modelo_productos.cs",
               "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\modelos\\modelo_productos.cs",
               "RelativeToolTip": "clase_negocio\\clases\\modelos\\modelo_productos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAApwBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T11:39:21.438Z",
               "EditorCaption": ""
@@ -69,19 +73,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "operaciones_arreglos.cs",
-              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
-              "RelativeDocumentMoniker": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
-              "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
-              "RelativeToolTip": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:37:59.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "operaciones_textos.cs",
               "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs",
               "RelativeDocumentMoniker": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs",
@@ -89,12 +80,11 @@
               "RelativeToolTip": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_textos.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:37:54.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T11:37:54.975Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Tex_base.cs",
               "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\Tex_base.cs",
               "RelativeDocumentMoniker": "clase_negocio\\clases\\herramientas_esenciales\\Tex_base.cs",
@@ -102,34 +92,58 @@
               "RelativeToolTip": "clase_negocio\\clases\\herramientas_esenciales\\Tex_base.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T11:37:48.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T11:37:48.946Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "negocio.cs",
               "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\negocio.cs",
               "RelativeDocumentMoniker": "clase_negocio\\clases\\negocio.cs",
               "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\negocio.cs",
               "RelativeToolTip": "clase_negocio\\clases\\negocio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAwwBoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T11:09:13.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "var_fun_GG.cs",
               "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\var_fun_GG.cs",
               "RelativeDocumentMoniker": "clase_negocio\\clases\\herramientas_esenciales\\var_fun_GG.cs",
               "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\var_fun_GG.cs",
               "RelativeToolTip": "clase_negocio\\clases\\herramientas_esenciales\\var_fun_GG.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T11:37:34.985Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "procesos_productos.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs",
+              "RelativeDocumentMoniker": "clase_negocio\\clases\\procesos\\procesos_productos.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\procesos\\procesos_productos.cs",
+              "RelativeToolTip": "clase_negocio\\clases\\procesos\\procesos_productos.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:40:59.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "operaciones_arreglos.cs",
+              "DocumentMoniker": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
+              "RelativeDocumentMoniker": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
+              "ToolTip": "C:\\Users\\pc1\\Documents\\GitHub\\clase_negocio\\clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
+              "RelativeToolTip": "clase_negocio\\clases\\herramientas_esenciales\\operaciones_arreglos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T11:37:59.742Z"
             }
           ]
         }
