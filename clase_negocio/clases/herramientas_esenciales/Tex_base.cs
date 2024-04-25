@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using System.IO;
 
 namespace clase_negocio.clases.herramientas
@@ -16,11 +17,16 @@ namespace clase_negocio.clases.herramientas
         //direcciones_de_las_bases
         static public string[,] GG_dir_bd_y_valor_inicial_bidimencional = null;
 
-        
+        //[0]=indice desde donde comensara desde el 0 nombre de las columnas y es mejor empesar desde el 1
         int G_donde_inicia_la_tabla = var_fun_GG.GG_indice_donde_comensar;
         var_fun_GG var_GG = new var_fun_GG();
-        
-        
+        //caracteres de separacion//el primero lo usaremos diferente NO USAR LOS MISMOS QUE G_separador_para_funciones_espesificas;
+        /*
+        public string[] G_caracter_separacion = { "|", "°", "¬", "^" };
+        public string G_separador_para_funciones_espesificas = "~";
+        public string G_separador_para_funciones_espesificas2 = "§";
+        public string G_separador_para_funciones_espesificas3 = "¶";
+        */
         public string[] GG_caracter_separacion = var_fun_GG.GG_caracter_separacion;
         public string[] GG_separador_para_funciones_espesificas_ = var_fun_GG.GG_caracter_separacion_funciones_espesificas;
 
@@ -28,10 +34,23 @@ namespace clase_negocio.clases.herramientas
         
 
 
-        
+        /*Aquí poner las funciones de las otras clases Si te vas a llevar esta clase solamente --------------------------------
+       Ver poniendo también los nombres de las funciones que estás usando para no pasar toda la clase -----------------------
+       Próstata también el nombre de la clase para saber de qué clase se está sacando las funciones -------------------------
+       */
         operaciones_arreglos op_arreglos = new operaciones_arreglos();
 
-        
+        //fin Aquí poner las funciones de las otras clases Si te vas a llevar esta clase solamente --------------------------------
+
+
+        //no muy importantes---------------------------------------------------------------------------------------------------
+
+
+
+        //fin no muy importantes-------------------------------------------------------------------------------------------------
+
+
+        //filas: es para filas iniciales valor_inicial: se utilisa para poner filas inicial normalmente se usa para poner el nombre de las columnas
         public string Crear_archivo_y_directorio_opcion_leer_y_agrega_arreglo(string direccion_archivo, string valor_inicial = null, string[] filas_iniciales = null, object caracter_separacion_fun_esp_objeto = null, bool leer_y_agrega_al_arreglo = true)
         {
             string[] caracter_separacion_fun_esp = var_GG.GG_funcion_caracter_separacion_funciones_especificas(caracter_separacion_fun_esp_objeto);
@@ -66,7 +85,7 @@ namespace clase_negocio.clases.herramientas
 
                     if (valor_inicial != null)// si al llamar a la funcion  le pusiste valor_inicial las escribe //se utilisa para que sea como un titulo o un eslogan pero lo utilisaremos en este prog
                     {
-                        Agregar_a_archivo_sin_arreglo_GG(direccion_archivo, valor_inicial);//escribe aqui el valor inicial si es que lo pusiste
+                        Agregar_a_archivo_sin_arreglo(direccion_archivo, valor_inicial);//escribe aqui el valor inicial si es que lo pusiste
                     }
 
                     if (filas_iniciales != null)//si al llamar a la funcion le pusistes columnas a agregar//recuerda que se separan por comas
@@ -79,7 +98,7 @@ namespace clase_negocio.clases.herramientas
                         {
                             for (int i = 0; i < filas_iniciales.Length; i++)
                             {
-                                Agregar_a_archivo_sin_arreglo_GG(direccion_archivo, filas_iniciales[i]);//agrega las filas
+                                Agregar_a_archivo_sin_arreglo(direccion_archivo, filas_iniciales[i]);//agrega las filas
                             }
                         }
 
@@ -216,7 +235,13 @@ namespace clase_negocio.clases.herramientas
             return null;
         }
 
-        
+        public void Agregar_a_archivo_sin_arreglo(string direccion_archivos, string agregando)
+        {
+            StreamWriter sw = new StreamWriter(direccion_archivos, true);
+            sw.WriteLine(agregando);
+            sw.Close();
+
+        }
 
         public string[] Editar_o_incr_espesifico_si_no_esta_agrega_linea(string direccion_archivo, int num_column_comp, string comparar, string numero_columnas_editar, string editar_columna, string edit_0_o_increm_1 = null, string linea_a_agregar_si_no_lo_encuentra = null, object caracter_separacion_objeto = null)
         {
@@ -471,14 +496,6 @@ namespace clase_negocio.clases.herramientas
                 File.Delete(dir_tem);//borramos el archivo original
             }
             return exito_o_fallo;
-        }
-
-        public void Agregar_a_archivo_sin_arreglo_GG(string direccion_archivos, string agregando)
-        {
-            StreamWriter sw = new StreamWriter(direccion_archivos, true);
-            sw.WriteLine(agregando);
-            sw.Close();
-
         }
 
     }

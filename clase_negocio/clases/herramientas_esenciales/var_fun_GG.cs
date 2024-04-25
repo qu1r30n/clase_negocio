@@ -114,7 +114,7 @@ namespace clase_negocio.clases.herramientas
                 operaciones_textos op_textos = new operaciones_textos();
                 string carpetas = op_textos.joineada_paraesida_y_quitador_de_extremos_del_string(direccion, "\\", 2);
 
-                bas.Agregar_a_archivo_sin_arreglo_GG(direccion, datos);
+                bas.Agregar_a_archivo_sin_arreglo(direccion, datos);
 
                 return datos;
             }
@@ -132,7 +132,7 @@ namespace clase_negocio.clases.herramientas
             if (datos is string)
             {
 
-                bas.Agregar_a_archivo_sin_arreglo_GG(direccion, (string)datos);
+                bas.Agregar_a_archivo_sin_arreglo(direccion, (string)datos);
                 info_a_retornar = (string)datos;
                 return info_a_retornar;
             }
@@ -142,7 +142,7 @@ namespace clase_negocio.clases.herramientas
                 bas.Crear_archivo_y_directorio_opcion_leer_y_agrega_arreglo(carpetas + "\\", "datos", leer_y_agrega_al_arreglo: false);
                 for (int i = 0; i < temp.Length; i++)
                 {
-                    bas.Agregar_a_archivo_sin_arreglo_GG(direccion, temp[i]);
+                    bas.Agregar_a_archivo_sin_arreglo(direccion, temp[i]);
                     info_a_retornar = info_a_retornar + temp[i] + "\n";
                 }
                 return info_a_retornar;
